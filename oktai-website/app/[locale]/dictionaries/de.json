@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "OKTAI Computer — der agentische Computer für komplexe Wissensarbeit | Coplanet AG",
+    "description": "OKTAI Computer von Coplanet AG: der agentische Computer, der Ihre komplexesten Arbeitsabläufe sicher, durchgängig und in höchster Qualität liefert."
+  },
+  "nav": {
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "openApp": "OKTAI Computer öffnen",
+    "beta": "β",
+    "skipToContent": "Zum Inhalt springen",
+    "toggleMenu": "Menü öffnen",
+    "switchLanguage": "Sprache wechseln"
+  },
+  "common": {
+    "availableTag": "Verfügbar",
+    "inProgressTag": "In Arbeit",
+    "backToTop": "Nach oben"
+  },
+  "hero": {
+    "pill": "OKTAI Computer · von Coplanet AG · Beta",
+    "headline": "Der agentische Computer, der Ihre komplexesten Arbeitsabläufe liefert",
+    "headlineDim": "— sicher, durchgängig und in höchster Qualität.",
+    "cta": "OKTAI Computer öffnen",
+    "trust": ["Schweizer Engineering", "Sicher", "Für vertrauliche Wissensarbeit entwickelt"]
+  },
+  "whatIs": {
+    "pill": "Was",
+    "heading": "Was ist OKTAI Computer?",
+    "sub": "Ein Computer, der für Sie arbeitet, statt von Ihnen bedient zu werden.",
+    "lede": "OKTAI Computer ermöglicht es Nutzern und Teams, eigene Daten anzubinden, tiefgehende Recherchen durchzuführen, Informationen zu analysieren und zusammenzuführen, hochwertige Dokumente im gewünschten Format zu erstellen und mehrstufige Arbeitsabläufe durchgängig zu automatisieren — bei jeder kritischen Entscheidung bleiben menschliches Urteilsvermögen und Kontrolle erhalten.",
+    "tagline": "Eine Kommandozentrale. Das Beste an einem Ort."
+  },
+  "goalResultStory": {
+    "pill": "So funktioniert es",
+    "heading": "Vom Ziel zum fertigen Ergebnis",
+    "sub": "Jeder Arbeitsablauf folgt demselben nachvollziehbaren Weg, von Anfang bis Ende.",
+    "stages": [
+      {
+        "key": "goal",
+        "label": "Ziel",
+        "body": "Sie verbinden Ihre eigenen Daten und definieren das gewünschte Ergebnis."
+      },
+      {
+        "key": "understanding",
+        "label": "Verständnis",
+        "body": "OKTAI Computer gleicht das Ziel mit den verbundenen Daten ab, um festzulegen, was „fertig“ bedeutet."
+      },
+      {
+        "key": "orchestration",
+        "label": "Orchestrierung",
+        "body": "Die Arbeit wird aufgeteilt und weitergeleitet — eine agentische Schicht koordiniert mehrstufige Arbeitsabläufe durchgängig."
+      },
+      {
+        "key": "agents",
+        "label": "Spezialisierte Agenten",
+        "body": "Spezialisierte Agenten übernehmen ihren Teil — Finanzen, Recht, Beschaffung, Betrieb und mehr — und verwandeln komplexe Informationen in nutzbare Ergebnisse."
+      },
+      {
+        "key": "research",
+        "label": "Recherche & Verarbeitung",
+        "body": "Tiefgehende Recherche, Analyse und Synthese verwandeln Rohinformationen in strukturiertes, entscheidungsreifes Material."
+      },
+      {
+        "key": "validation",
+        "label": "Validierung",
+        "body": "Dedizierte Bewertungs- und Validierungsagenten prüfen die Ergebnisse in einem mehrstufigen Prozess, bevor Ihnen etwas angezeigt wird."
+      },
+      {
+        "key": "review",
+        "label": "Menschliche Prüfung",
+        "body": "Eine benannte Person prüft und genehmigt jedes Ergebnis, bevor es das System verlässt — menschliches Urteilsvermögen und Kontrolle bei jeder kritischen Entscheidung."
+      },
+      {
+        "key": "result",
+        "label": "Fertiges Ergebnis",
+        "body": "Ein fertiges Dokument in Ihrer eigenen Vorlage, Ihrem Format, Ton und Ihrer Handschrift — bereit zur Prüfung und Freigabe."
+      }
+    ]
+  },
+  "differentiators": {
+    "pill": "Warum",
+    "heading": "Was zeichnet es aus?",
+    "sub": "Vier bereits verfügbar, zwei in Arbeit.",
+    "items": [
+      {
+        "num": "01",
+        "status": "available",
+        "title": "Viele komplexe Arbeitsabläufe, auf höchstem Niveau geliefert",
+        "body": "Eine agentische Schicht, die mehrere mehrstufige Arbeitsabläufe parallel ausführt — über Finanzen, Recht, Beschaffung, Betrieb und mehr hinweg — und jeden bis zum fertigen Ergebnis führt. **Anders konstruiert**: unser eigener, effizienter Ansatz für agentische Arbeitsabläufe **hebt OKTAI in Benchmarks deutlich ab**, wenn es um komplexe Aufgaben geht. **Echte Spitzenergebnisse bei der Qualität, keine plausibel wirkenden Entwürfe.**"
+      },
+      {
+        "num": "02",
+        "status": "available",
+        "title": "Vielfältige Modelle für unterschiedliche Anforderungen",
+        "body": "Leitet jede Aufgabe an das am besten geeignete Modell weiter — Open Source, Closed Source oder souveräne Schweizer Modelle. **Erstklassige Open-Source-Modelle** liefern Spitzenqualität **zu einem Bruchteil der Kosten**, sodass Sie nur dann für Premium-Modelle zahlen, wenn eine Aufgabe es wirklich erfordert. **Keine Bindung an einen einzelnen LLM-Anbieter und keine Überzahlung für Arbeit, die ein schlankeres Modell ebenso gut erledigt.**"
+      },
+      {
+        "num": "03",
+        "status": "available",
+        "title": "Transparentes Preismodell",
+        "body": "**Die Kosten jeder Aufgabe, berechnet und aufgeschlüsselt.** OKTAI berechnet die kreditbasierten Kosten jeder Aufgabe in einem Arbeitsablauf — unabhängig von ihrer Komplexität — und **zeigt Ihnen die Zahlen**, damit Sie immer wissen, wofür und warum Sie zahlen. **Die meisten Plattformen zeigen diese Aufschlüsselung nie. Bei OKTAI ist sie der Standard.**"
+      },
+      {
+        "num": "04",
+        "status": "in-progress",
+        "title": "Prüfbarkeit & Nachvollziehbarkeit mit voller Kontrolle über alle Ebenen",
+        "body": "Jeder Agentenlauf wird lückenlos protokolliert und ist nachvollziehbar: Eingaben, Ausgaben, Tool-Aufrufe, Modellaufrufe, Freigaben und Aktionen — mit **vollständiger Human-in-the-Loop-Kontrolle** auf verschiedenen Ebenen der Anwendung. **Jedes Ergebnis trägt eine Nachweiskette, die Ihr Compliance-Team tatsächlich abzeichnen kann.**"
+      },
+      {
+        "num": "05",
+        "status": "available",
+        "title": "Ihre Handschrift, durchgängig",
+        "body": "OKTAI Computer trägt Ihre eigene Handschrift durch den **gesamten Prozess** — vom Anbinden und Lesen **Ihrer Daten** über **Ihre individuellen Konnektoren** bis hin zu fertigen Berichten in **Ihrer Vorlage, Ihrem Format, Ton und Ihrer Signatur**, **vollständig lokalisiert in allen offiziellen Schweizer Landessprachen**."
+      },
+      {
+        "num": "06",
+        "status": "in-progress",
+        "title": "Sicherheit & Datenschutz, Ebene für Ebene",
+        "body": "Schutz auf jeder Ebene eingebaut: **verschlüsselte und isolierte Ausführung** für jeden Agentenlauf sowie **strikte Zugriffskontrolle**, abgesichert durch **mehrere Sicherheits- und Datenschutzebenen**. **Vertrauliche Arbeit bleibt vertraulich, auf jeder Ebene.**"
+      }
+    ]
+  },
+  "humanOversight": {
+    "pill": "Kontrolle",
+    "heading": "Der Mensch bleibt im Zentrum",
+    "lede": "Menschliche Aufsicht und Kontrolle über KI sind untrennbar mit unserem Produkt verbunden. Eine benannte Person prüft und genehmigt jedes Ergebnis, bevor es das System verlässt. Menschen führen und beaufsichtigen, während die KI zuarbeitet und ausführt.",
+    "points": [
+      {
+        "title": "Strukturelle Transparenz",
+        "body": "Grundlegende Transparenz ist fest in unser Produktdesign eingebaut. Nutzer haben das Recht, klar zu verstehen, wie ein Ergebnis entstanden ist, welche Entscheidungen getroffen wurden, welche Wege eingeschlagen wurden und welche Logik den Prozess geleitet hat."
+      },
+      {
+        "title": "Für die Prüfung gebaut",
+        "body": "Jeder Agentenlauf wird auf vollständige, durchgängige Prüfbarkeit hin entwickelt: was eingegeben wurde, welche Tools aufgerufen wurden, was herauskam und wer es freigegeben hat. Die meisten KI-Tools zeigen während der Arbeit nur eine Ladeanimation. OKTAI Computer zeigt die Arbeit selbst."
+      }
+    ]
+  },
+  "security": {
+    "pill": "Sicherheit & Schweiz",
+    "heading": "Schweizer Fakten statt Schweizer Etikett",
+    "lede": "„Schweizer“ ist hier keine Stimmung, sondern eine Reihe von Fakten, die sich überprüfen lassen. Kundendaten bleiben schon heute in der Schweiz, auf Schweizer Cloud-Infrastruktur, mit souveränem Schweizer Hosting auf unserer Roadmap. Das Task-Routing kann auf Apertus, ein Schweizer Modell, sowie auf offene und geschlossene Alternativen zurückgreifen.",
+    "points": [
+      {
+        "title": "Ebene für Ebene",
+        "body": "Sicherheit wird hier in Ebenen aufgebaut, nicht nachträglich hinzugefügt. Verschlüsselte und isolierte Ausführung für jeden Agentenlauf, zusammen mit strikter Zugriffskontrolle, bilden mehrere Schutzebenen um jede Aufgabe. Das Ziel ist einfach: vertrauliche Arbeit bleibt vertraulich, auf jeder Ebene."
+      },
+      {
+        "title": "Standardmässig vertraulich",
+        "body": "Kundendaten werden niemals zum Training anderer Modelle verwendet, und vertrauliche Arbeit bleibt vertraulich, sofern der Nutzer nicht anders entscheidet."
+      }
+    ]
+  },
+  "companyBridge": {
+    "pill": "Wer",
+    "heading": "Wer steht dahinter?",
+    "body": "Coplanet AG entwickelt agentische Systeme. OKTAI Computer ist ihr Flaggschiffprodukt — der agentische Computer für komplexe Wissensarbeit — und Coplanet steht mit dem Engineering, der Sicherheit und der Verantwortlichkeit dahinter, die ernsthafte Arbeit verlangt.",
+    "linkLabel": "Mehr über Coplanet AG"
+  },
+  "company": {
+    "pill": "Coplanet AG",
+    "heroHeading": "Das Unternehmen hinter OKTAI Computer",
+    "heroSub": "Coplanet AG entwickelt agentische Systeme — konzipiert und betrieben aus der Schweiz.",
+    "whoHeading": "Wer sie sind",
+    "whoBody": "Coplanet AG entwickelt agentische Systeme. OKTAI Computer ist ihr Flaggschiffprodukt — der agentische Computer für komplexe Wissensarbeit — und Coplanet steht mit dem Engineering, der Sicherheit und der Verantwortlichkeit dahinter, die ernsthafte Arbeit verlangt.",
+    "connectionHeading": "Warum es so gebaut ist",
+    "connectionPoints": [
+      {
+        "title": "Die Mission",
+        "body": "Unsere Mission ist es, jeden Nutzer zu befähigen, komplexe Arbeit mit Zuversicht durch kollaborative KI anzugehen. Wir haben ein leistungsstarkes, erfahrenes Team aufgebaut, um OKTAI Computer zu schaffen — einen agentischen Computer, der komplexe Informationen durch die Koordination spezialisierter Agenten in nutzbare Ergebnisse verwandelt."
+      },
+      {
+        "title": "Das Versprechen",
+        "body": "Aus dem, was Sie bereits haben, präzise Ergebnisse zu machen, die Ihre Handschrift tragen — durch Qualität und Transparenz."
+      },
+      {
+        "title": "Qualität und Präzision",
+        "body": "Jedes Ergebnis sollte präzise genug sein, um geprüft, vertraut und vom Nutzer unterzeichnet zu werden. Geschwindigkeit ist eine erwartete Fähigkeit von KI, aber die Disziplin, die auf jedes Ergebnis angewendet wird, setzt unseren Massstab. „Gut genug“ ist nie das Ziel."
+      }
+    ],
+    "officesHeading": "Standorte",
+    "offices": [
+      { "label": "Hauptsitz", "address": "Gubelstrasse 24, 6300 Zug, Schweiz" },
+      { "label": "USA", "address": "455 Market St, San Francisco, CA 94105" }
+    ],
+    "ctaLabel": "Zum Produkt"
+  },
+  "cta": {
+    "pill": "Ausprobieren",
+    "heading": "Bereit für eine echte Aufgabe?",
+    "sub": "Öffnet sich mit einem Klick im Browser. Keine Installation nötig.",
+    "button": "OKTAI Computer öffnen"
+  },
+  "footer": {
+    "blurb": "OKTAI Computer — der agentische Computer für komplexe Wissensarbeit. Schweizer Engineering und sicher.",
+    "productHeading": "OKTAI Computer",
+    "productLinks": [
+      { "label": "OKTAI Computer öffnen β", "href": "https://app.oktai.ai/" },
+      { "label": "Was es ist", "href": "#what" },
+      { "label": "Was es auszeichnet", "href": "#differentiators" }
+    ],
+    "companyHeading": "Coplanet AG",
+    "companyLinks": [{ "label": "Wer dahintersteht", "href": "/company" }],
+    "officesHeading": "Standorte",
+    "offices": [
+      "Gubelstrasse 24, 6300 Zug, Schweiz (Hauptsitz)",
+      "455 Market St, San Francisco, CA 94105"
+    ],
+    "legalLinks": [
+      "Datenschutzerklärung",
+      "Nutzungsbedingungen",
+      "Impressum",
+      "Datenverarbeitung",
+      "Datenaufbewahrung",
+      "Cookie-Hinweis"
+    ],
+    "trustLine": "Hauptsitz in der Schweiz · Schweizer Engineering & sicher"
+  }
+}

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/*
+  Brand purple is the icon pack's actual value (#601BC0 / #571EBC),
+  not the placeholder violet used in the v19 content draft (#9A7BFF).
+  --brand-tint exists only for text/icons that need more contrast on
+  near-black than the deep brand purple itself provides.
+*/
+:root {
+  --bg: #07070a;
+  --bg-elevated: #0e0e14;
+  --surface: #14141d;
+  --surface-2: #191924;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-soft: rgba(255, 255, 255, 0.05);
+
+  --text: #f6f5fa;
+  --text-secondary: #cac7db;
+  --muted: #8f8ba3;
+  --faint: #625d78;
+
+  --brand: #601bc0;
+  --brand-ray: #571ebc;
+  --brand-tint: #a683f2;
+  --brand-wash: rgba(96, 27, 192, 0.16);
+  --brand-line: rgba(150, 108, 230, 0.32);
+
+  --available: #6fd79e;
+  --in-progress: #edb65a;
+
+  --font-display: var(--font-inter-tight), "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --container-w: 1200px;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--brand);
+  --color-brand-ray: var(--brand-ray);
+  --color-brand-tint: var(--brand-tint);
+  --color-brand-wash: var(--brand-wash);
+  --color-brand-line: var(--brand-line);
+  --color-available: var(--available);
+  --color-in-progress: var(--in-progress);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--brand);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-tint);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
