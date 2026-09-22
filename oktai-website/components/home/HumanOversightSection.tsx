@@ -20,7 +20,7 @@ export function HumanOversightSection({ dict }: { dict: Dictionary }) {
                   <ReviewIcon />
                 </IconFrame>
               </div>
-              <h2 className="max-w-[16ch] font-display text-[28px] font-semibold tracking-[-0.03em] md:text-[36px]">
+              <h2 className="max-w-[16ch] font-display text-[28px] font-semibold leading-[1.08] tracking-[-0.03em] md:text-[38px]">
                 {dict.humanOversight.heading}
               </h2>
               <p className="mt-4 max-w-[46ch] text-[16px] leading-relaxed text-text-secondary">

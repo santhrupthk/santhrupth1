@@ -12,10 +12,10 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line-soft bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-line bg-[color-mix(in_srgb,var(--bg)_90%,transparent)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-6 py-3.5 md:px-8">
-        <Link href={`/${locale}`} className="flex items-center gap-2.5 text-brand-tint">
-          <TerminalMark className="h-7 w-7" />
+        <Link href={`/${locale}`} className="group flex items-center gap-2.5 text-brand-tint">
+          <TerminalMark className="h-7 w-7 transition-transform duration-300 group-hover:rotate-[8deg]" />
           <span className="font-display text-[17px] font-bold tracking-tight text-text">
             OKTAI Computer
           </span>
@@ -24,15 +24,17 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         <nav className="hidden items-center gap-1 text-[14.5px] md:flex" aria-label={dict.nav.product}>
           <Link
             href={`/${locale}`}
-            className="rounded-full px-3.5 py-2 text-muted transition-colors hover:bg-white/[0.06] hover:text-text"
+            className="group relative px-3.5 py-2 text-muted transition-colors hover:text-text"
           >
             {dict.nav.product}
+            <span className="absolute inset-x-3.5 -bottom-0.5 h-px scale-x-0 bg-brand-tint transition-transform duration-200 group-hover:scale-x-100" />
           </Link>
           <Link
             href={`/${locale}/company`}
-            className="rounded-full px-3.5 py-2 text-muted transition-colors hover:bg-white/[0.06] hover:text-text"
+            className="group relative px-3.5 py-2 text-muted transition-colors hover:text-text"
           >
             {dict.nav.company}
+            <span className="absolute inset-x-3.5 -bottom-0.5 h-px scale-x-0 bg-brand-tint transition-transform duration-200 group-hover:scale-x-100" />
           </Link>
         </nav>
 

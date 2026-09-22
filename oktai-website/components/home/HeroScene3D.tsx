@@ -23,8 +23,8 @@ function Rays() {
     <>
       {rays.map((r, i) => (
         <mesh key={i} position={r.position} rotation={r.rotation}>
-          <capsuleGeometry args={[0.045, 0.42, 4, 8]} />
-          <meshStandardMaterial color="#a683f2" emissive="#601bc0" emissiveIntensity={0.4} roughness={0.35} />
+          <capsuleGeometry args={[0.042, 0.4, 4, 8]} />
+          <meshStandardMaterial color="#c3aef7" emissive="#7226e0" emissiveIntensity={0.55} roughness={0.3} />
         </mesh>
       ))}
     </>
@@ -54,12 +54,8 @@ function TerminalCore({ reduceMotion }: { reduceMotion: boolean }) {
   return (
     <group ref={group} scale={scale}>
       <RoundedBox args={[1.5, 1.5, 0.55]} radius={0.28} smoothness={4}>
-        <meshStandardMaterial color="#601bc0" roughness={0.4} metalness={0.15} />
+        <meshStandardMaterial color="#601bc0" roughness={0.32} metalness={0.2} envMapIntensity={0.6} />
       </RoundedBox>
-      <mesh position={[0, 0, 0.29]}>
-        <planeGeometry args={[1.5, 1.5]} />
-        <meshBasicMaterial color="#601bc0" transparent opacity={0} />
-      </mesh>
       <Rays />
     </group>
   );
@@ -80,9 +76,10 @@ export function HeroScene3D({
         camera={{ position: [0, 0, 4.4], fov: 42 }}
         frameloop={paused ? "never" : "always"}
       >
-        <ambientLight intensity={0.65} />
-        <directionalLight position={[3, 3, 4]} intensity={1.1} color="#c9b7ff" />
-        <pointLight position={[-3, -2, 2]} intensity={0.4} color="#571ebc" />
+        <ambientLight intensity={0.55} />
+        <directionalLight position={[3, 3, 4]} intensity={1.25} color="#d9c9ff" />
+        <pointLight position={[-3, -2, 2]} intensity={0.5} color="#571ebc" />
+        <pointLight position={[0, -3, -2]} intensity={0.3} color="#a683f2" />
         <TerminalCore reduceMotion={reduceMotion} />
       </Canvas>
     </div>

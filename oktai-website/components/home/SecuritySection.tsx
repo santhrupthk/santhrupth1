@@ -26,7 +26,7 @@ export function SecuritySection({ dict }: { dict: Dictionary }) {
             </IconFrame>
           </Reveal>
           <Reveal delay={0.1}>
-            <h2 className="font-display text-[28px] font-semibold tracking-[-0.03em] md:text-[38px]">
+            <h2 className="font-display text-[28px] font-semibold leading-[1.08] tracking-[-0.03em] md:text-[40px]">
               {dict.security.heading}
             </h2>
           </Reveal>

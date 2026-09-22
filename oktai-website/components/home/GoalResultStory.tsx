@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useSpring, useReducedMotion } from "framer-motion";
 import { Container } from "@/components/ui/Container";
-import { Pill } from "@/components/ui/Pill";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import {
   GoalIcon,
@@ -32,38 +32,30 @@ export function GoalResultStory({ dict }: { dict: Dictionary }) {
   return (
     <section id="how-it-works" className="py-24 md:py-32">
       <Container>
-        <div className="mx-auto mb-16 max-w-[720px] text-center">
-          <div className="mb-5 flex justify-center">
-            <Pill>{dict.goalResultStory.pill}</Pill>
-          </div>
-          <h2 className="font-display text-[30px] font-semibold tracking-[-0.03em] md:text-[42px]">
-            {dict.goalResultStory.heading}
-          </h2>
-          <p className="mx-auto mt-3.5 max-w-[56ch] text-[17px] text-muted md:text-[18px]">
-            {dict.goalResultStory.sub}
-          </p>
+        <div className="mb-16">
+          <SectionHeading pill={dict.goalResultStory.pill} heading={dict.goalResultStory.heading} sub={dict.goalResultStory.sub} />
         </div>
 
         <div ref={containerRef} className="relative mx-auto max-w-[760px]">
-          <div className="absolute left-[27px] top-2 bottom-2 w-px bg-line md:left-[27px]" aria-hidden="true">
+          <div className="absolute left-[31px] top-3 bottom-3 w-[3px] rounded-full bg-line-soft" aria-hidden="true">
             <motion.div
-              className="w-full origin-top bg-gradient-to-b from-brand to-brand-tint"
-              style={{ height: reduce ? "100%" : lineProgress }}
+              className="h-full w-full origin-top rounded-full bg-gradient-to-b from-brand via-brand-tint to-brand-tint shadow-[0_0_16px_rgba(166,131,242,0.5)]"
+              style={{ scaleY: reduce ? 1 : lineProgress }}
             />
           </div>
 
-          <ol className="flex flex-col gap-10 md:gap-12">
+          <ol className="flex flex-col gap-9 md:gap-11">
             {dict.goalResultStory.stages.map((stage, i) => {
               const Icon = icons[i];
               return (
-                <Reveal key={stage.key} as="li" delay={0} className="relative flex gap-6 pl-0">
-                  <div className="relative z-10 grid h-14 w-14 flex-none place-items-center rounded-[14px] border border-brand-line bg-bg text-brand-tint shadow-[0_0_0_6px_var(--bg)]">
-                    <div className="h-6 w-6">
+                <Reveal key={stage.key} as="li" delay={0} className="relative flex gap-5 md:gap-7">
+                  <div className="relative z-10 grid h-16 w-16 flex-none place-items-center rounded-2xl border border-brand-line bg-bg-elevated text-brand-tint shadow-[0_0_0_6px_var(--bg),0_8px_24px_rgba(0,0,0,0.35)]">
+                    <div className="h-7 w-7">
                       <Icon />
                     </div>
                   </div>
-                  <div className="pt-1.5">
-                    <div className="mb-1 flex items-center gap-2.5 font-mono text-[11px] font-semibold uppercase tracking-[0.12em] text-brand-tint">
+                  <div className="pt-2.5">
+                    <div className="mb-1.5 flex items-center gap-2.5 font-mono text-[11px] font-semibold uppercase tracking-[0.14em] text-brand-tint">
                       <span>{String(i + 1).padStart(2, "0")}</span>
                       <span className="h-1 w-1 rounded-full bg-brand" />
                       <span>{stage.label}</span>

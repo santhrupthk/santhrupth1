@@ -31,7 +31,15 @@ export function HeroVisual() {
   }, []);
 
   return (
-    <div ref={containerRef} className="h-full w-full">
+    <div ref={containerRef} className="relative h-full w-full">
+      <div
+        className="pointer-events-none absolute inset-0 -z-10"
+        style={{
+          background: "radial-gradient(closest-side, rgba(96,27,192,0.28), transparent 72%)",
+          filter: "blur(6px)",
+        }}
+        aria-hidden="true"
+      />
       {capable ? (
         <HeroScene3D reduceMotion={reduceMotion} paused={!inView} />
       ) : (
